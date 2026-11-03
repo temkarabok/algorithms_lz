@@ -1,6 +1,6 @@
 import random
 a = sorted(random.sample(range(0, 333), 101))#список для поиска
-b = 67#что ищем
+b=int(input("Введите число "))#что ищем
 c = len(a)
 d = 0#счётчик сравнений
 e = -1
